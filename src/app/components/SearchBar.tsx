@@ -4,11 +4,20 @@ import React from "react";
 export default function SearchBar() {
   return (
     <>
-      <form action="">
-        <input type="text" placeholder="Search" />
+      <form className="w-1/2 relative">
+        <input
+          type="text"
+          placeholder="Search"
+          className="py-1 px-3 border rounded-md w-full"
+        />
         <button>
-          {" "}
-          <Image src="/search.png" alt="" width={16} height={16} />'{" "}
+          <Image
+            src="/search.png"
+            alt=""
+            width={16}
+            height={16}
+            className="absolute right-2 top-1/2 -translate-y-1/2 "
+          />
         </button>
       </form>
     </>
