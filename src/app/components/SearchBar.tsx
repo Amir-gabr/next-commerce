@@ -4,7 +4,7 @@ import React from "react";
 export default function SearchBar() {
   return (
     <>
-      <form className="w-1/2 relative">
+      <form className="md:w-3/5 lg:w-2/3 relative">
         <input
           type="text"
           placeholder="Search"
