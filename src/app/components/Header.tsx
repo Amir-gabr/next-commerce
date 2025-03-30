@@ -8,7 +8,7 @@ import NavMenuIcons from './NavIcons';
 
 export default function Header() {
   return (
-    <header className="h-20 px-4 md:px-8 lg:px-16 xl:px-32 2xl:px-64">
+    <header className="h-20 px-4 md:px-8 lg:px-16 xl:px-32 2xl:px-64 border-b">
       {/* small screen */}
       <div className="h-full flex md:hidden items-center justify-between">
         <Link href={"/"} className="font-semibold text-lg">

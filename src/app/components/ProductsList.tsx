@@ -10,7 +10,7 @@ export default function ProductsList() {
     return (
         <div className="grid grid-cols-1 md:grid-col-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-6">
           <div className="flex flex-col">
-            <Link href={"/"} className="relative w-full h-80">
+            <Link href={"/test"} className="relative w-full h-80">
                 <Image
                   src={"/1_prod.webp"}
                   width={500}
