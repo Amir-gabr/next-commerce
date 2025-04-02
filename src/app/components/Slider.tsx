@@ -46,14 +46,14 @@ export default function Slider() {
       >
         {slider.map((slide) => (
           <div
-            key={slide.id} 
-            className={`${slide.bg} w-screen h-full flex flex-col lg:flex-row `}
+            key={slide.id}
+            className={`${slide.bg} w-screen h-full flex flex-col md:flex-row `}
           >
-            <div className="w-1/2 flex flex-col gap-5 py-40 ps-10">
+            <div className="w-full md:w-1/2 flex flex-col justify-center items-center md: md:items-start  gap-5 py-40 ps-10">
               <p className="text-xl md:text-2xl lg:text-3xl 2xl:text-5xl">
                 {slide.description}
               </p>
-              <p className="w-5/6 text-3xl md:text-5xl lg:text-6xl 2xl:text-8xl">
+              <p className=" md:w-5/6 text-3xl md:text-5xl lg:text-6xl 2xl:text-8xl">
                 {slide.title}
               </p>
               <Link href={slide.url} className="">
@@ -62,7 +62,7 @@ export default function Slider() {
                 </button>
               </Link>
             </div>
-            <div className="w-1/2">
+            <div className="w-1/2 hidden md:block">
               <Image
                 src={slide.image}
                 alt={slide.title}

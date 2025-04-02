@@ -6,7 +6,7 @@ export default function CategoryList() {
   return (
     <div className="overflow-x-scroll " id="category">
       <div className="flex gap-6 md:gap-8">
-        <div className="flex-shrink-0 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 ">
+        <div className="flex-shrink-0 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
           <div className="flex flex-col">
             <Link href={"/list"} className="relative w-full h-80">
               <Image
@@ -36,7 +36,7 @@ export default function CategoryList() {
             </div>
           </div>
         </div>
-        <div className="flex-shrink-0 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 ">
+        <div className="flex-shrink-0 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 ">
           <div className="flex flex-col">
             <Link href={"/"} className="relative w-full h-80">
               <Image
@@ -66,7 +66,7 @@ export default function CategoryList() {
             </div>
           </div>
         </div>
-        <div className="flex-shrink-0 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 ">
+        <div className="flex-shrink-0 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 ">
           <div className="flex flex-col">
             <Link href={"/"} className="relative w-full h-80">
               <Image
@@ -96,7 +96,7 @@ export default function CategoryList() {
             </div>
           </div>
         </div>
-        <div className="flex-shrink-0 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 ">
+        <div className="flex-shrink-0 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 ">
           <div className="flex flex-col">
             <Link href={"/"} className="relative w-full h-80">
               <Image
@@ -126,7 +126,7 @@ export default function CategoryList() {
             </div>
           </div>
         </div>
-        <div className="flex-shrink-0 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 ">
+        <div className="flex-shrink-0 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 ">
           <div className="flex flex-col">
             <Link href={"/"} className="relative w-full h-80">
               <Image
@@ -156,7 +156,7 @@ export default function CategoryList() {
             </div>
           </div>
         </div>
-        <div className="flex-shrink-0 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 ">
+        <div className="flex-shrink-0 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 ">
           <div className="flex flex-col">
             <Link href={"/"} className="relative w-full h-80">
               <Image
@@ -186,7 +186,7 @@ export default function CategoryList() {
             </div>
           </div>
         </div>
-        <div className="flex-shrink-0 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 ">
+        <div className="flex-shrink-0 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 ">
           <div className="flex flex-col">
             <Link href={"/"} className="relative w-full h-80">
               <Image
@@ -216,7 +216,7 @@ export default function CategoryList() {
             </div>
           </div>
         </div>
-        <div className="flex-shrink-0 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 ">
+        <div className="flex-shrink-0 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 ">
           <div className="flex flex-col">
             <Link href={"/"} className="relative w-full h-80">
               <Image
